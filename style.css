@@ -1,0 +1,83 @@
+#container{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 1; right: 1; bottom: 1; left:1;
+    margin: auto;
+    text-align: center;
+  }
+  #playground {
+    width: 300px;
+    height: 300px;
+    border: 4px solid #020816;
+    position: center;
+    
+  }
+  #endScreen{
+    width: 404px;
+    height: 404px;
+    position: absolute;
+    top: 19px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+  background: #3f4c6b;
+  background: -moz-linear-gradient(top,  #3f4c6b 0%, #3f4c6b 100%);
+  background: -webkit-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%);
+  background: -o-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%);
+  background: linear-gradient(to bottom,  #3f4c6b 0%,#3f4c6b 100%);
+  filter:
+    color: #fff;
+  
+  }
+  #endCount, #endSeconds{
+    font-weight: bold;
+  }
+  #timer, #counter{
+    padding: 5px;
+    font-family: calibri;
+  }
+  #timer span, #counter span{
+     font-weight: bold;
+  }
+  #timer{
+    float: right;
+  }
+  #counter {
+    float: left;
+  }
+  #start, #startGame {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    line-height: 50px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 13px;
+    border-radius: 50%;
+    position: center;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
+    background: #0a0201;
+  background: -moz-linear-gradient(top,  #0a0201 0%, #0a0201 50%, #0a0201 51%, #0a0201 71%, #0a0201 100%);
+  background: -webkit-linear-gradient(top,  #0a0201 0%,#0a0201 50%,#0a0201 51%,#0a0201 71%,#0a0201100%);
+  background: -o-linear-gradient(top,  #0c0402 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+  background: -ms-linear-gradient(top,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+  background: linear-gradient(to bottom,  #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+  border: 2px solid #66;
+    color: #66;
+  }
+  
+  #win{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #666;
+    background: #f2f6f8;
+  background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+  background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+  background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+  background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+  background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
+  }
